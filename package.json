@@ -69,7 +69,7 @@
   "dependencies": {
     "@nytimes/react-prosemirror": "^0.4.2",
     "@rive-app/react-canvas": "^4.0.0",
-    "@sentry/integrations": "^7.60.1",
+    "@sentry/integrations": "^7.120.4",
     "@sentry/react": "^7.60.1",
     "@sentry/tracing": "^7.60.1",
     "@tauri-apps/api": "^1.5.0",
