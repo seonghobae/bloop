@@ -41,7 +41,7 @@ harness = false
 # core
 tantivy = { version = "0.21.0", features = ["mmap"] }
 tantivy-columnar = "0.2.0"
-tokio = { version = "1.32.0", features = ["macros", "process", "rt", "rt-multi-thread", "io-std", "io-util", "sync", "fs"] }
+tokio = { version = "1.38.2", features = ["macros", "process", "rt", "rt-multi-thread", "io-std", "io-util", "sync", "fs"] }
 tokio-stream = { version = "0.1.14", features = ["sync"]}
 async-trait = "0.1.73"
 async-stream = "0.3.5"
@@ -50,7 +50,7 @@ futures = "0.3.28"
 rayon = "1.8.0"
 clap = { version = "4.4.4", features = ["derive"] }
 tracing = "0.1.37"
-tracing-subscriber = { version = "0.3.17", features = ["env-filter", "registry"] }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter", "registry"] }
 tracing-appender = "0.2.2"
 color-eyre = { version = "0.6.2", optional = true }
 regex = "1.9.5"
@@ -135,7 +135,7 @@ rudderanalytics = { version = "1.1.2", default-features = false, features = ["ru
 # auth
 jsonwebtoken = { version = "8.3.0", features = ["use_pem"] }
 jwt-authorizer = { version = "0.11.0", default-features = false, features = ["rustls-tls-webpki-roots", "chrono"] }
-ring = "0.16.20"
+ring = "0.17.5"
 hex = "0.4.3"
 base64 = "0.21.4"
 
