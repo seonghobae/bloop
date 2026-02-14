@@ -75,7 +75,7 @@
     "@tauri-apps/api": "^1.5.0",
     "@tippyjs/react": "^4.2.6",
     "ansi-to-html": "^0.7.2",
-    "axios": "^1.4.0",
+    "axios": "^1.13.5",
     "date-fns": "^2.30.0",
     "downshift": "^8.2.3",
     "file-icons-js": "^1.1.0",
